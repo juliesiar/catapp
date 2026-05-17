@@ -164,16 +164,16 @@ def page_album():
     # Liste d'URLs de photos de chats
     # On utilise placekitten.com avec des dimensions différentes pour varier les images
     cat_images = [
-        ("https://placekitten.com/400/300", "Minou"),
-        ("https://placekitten.com/401/300", "Filou"),
-        ("https://placekitten.com/402/300", "Tigrou"),
-        ("https://placekitten.com/400/301", "Câline"),
-        ("https://placekitten.com/401/301", "Minette"),
-        ("https://placekitten.com/402/301", "Félix"),
-        ("https://placekitten.com/400/302", "Caramel"),
-        ("https://placekitten.com/401/302", "Noisette"),
-        ("https://placekitten.com/402/302", "Perle"),
-    ]
+    ("https://loremflickr.com/400/300/cat?lock=1", "Minou"),
+    ("https://loremflickr.com/400/300/cat?lock=2", "Filou"),
+    ("https://loremflickr.com/400/300/cat?lock=3", "Tigrou"),
+    ("https://loremflickr.com/400/300/cat?lock=4", "Câline"),
+    ("https://loremflickr.com/400/300/cat?lock=5", "Minette"),
+    ("https://loremflickr.com/400/300/cat?lock=6", "Félix"),
+    ("https://loremflickr.com/400/300/cat?lock=7", "Caramel"),
+    ("https://loremflickr.com/400/300/cat?lock=8", "Noisette"),
+    ("https://loremflickr.com/400/300/cat?lock=9", "Perle"),
+]
 
     # Affichage 3 images par ligne avec st.columns
     for i in range(0, len(cat_images), 3):
